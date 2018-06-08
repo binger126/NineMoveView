@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "MyViewController.h"
-#import "BtnViewController.h"
 
 @interface AppDelegate ()
 

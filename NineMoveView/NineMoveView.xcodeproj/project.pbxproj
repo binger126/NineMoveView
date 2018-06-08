@@ -14,8 +14,8 @@
 		047FE40220C90D5700BD8A53 /* NineMoveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047FE40120C90D5700BD8A53 /* NineMoveViewTests.m */; };
 		047FE40D20C90D5700BD8A53 /* NineMoveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047FE40C20C90D5700BD8A53 /* NineMoveViewUITests.m */; };
 		047FE41C20C90D6A00BD8A53 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047FE41B20C90D6A00BD8A53 /* MyViewController.m */; };
-		047FE41F20C932E700BD8A53 /* BtnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047FE41E20C932E700BD8A53 /* BtnViewController.m */; };
 		04EB0D3D20CA15DD00C1DFC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB0D3C20CA15DD00C1DFC5 /* CoreGraphics.framework */; };
+		04EB0D4020CA602C00C1DFC5 /* SplitScreenSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB0D3F20CA602C00C1DFC5 /* SplitScreenSwitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +51,9 @@
 		047FE40E20C90D5700BD8A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047FE41A20C90D6A00BD8A53 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		047FE41B20C90D6A00BD8A53 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		047FE41D20C932E700BD8A53 /* BtnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BtnViewController.h; sourceTree = "<group>"; };
-		047FE41E20C932E700BD8A53 /* BtnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BtnViewController.m; sourceTree = "<group>"; };
 		04EB0D3C20CA15DD00C1DFC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04EB0D3E20CA602C00C1DFC5 /* SplitScreenSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitScreenSwitch.h; sourceTree = "<group>"; };
+		04EB0D3F20CA602C00C1DFC5 /* SplitScreenSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitScreenSwitch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 				047FE3EF20C90D4A00BD8A53 /* AppDelegate.m */,
 				047FE41A20C90D6A00BD8A53 /* MyViewController.h */,
 				047FE41B20C90D6A00BD8A53 /* MyViewController.m */,
-				047FE41D20C932E700BD8A53 /* BtnViewController.h */,
-				047FE41E20C932E700BD8A53 /* BtnViewController.m */,
+				04EB0D3E20CA602C00C1DFC5 /* SplitScreenSwitch.h */,
+				04EB0D3F20CA602C00C1DFC5 /* SplitScreenSwitch.m */,
 				047FE3F120C90D5600BD8A53 /* Assets.xcassets */,
 				047FE3F320C90D5600BD8A53 /* LaunchScreen.storyboard */,
 				047FE3F620C90D5600BD8A53 /* Info.plist */,
@@ -275,8 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EB0D4020CA602C00C1DFC5 /* SplitScreenSwitch.m in Sources */,
 				047FE41C20C90D6A00BD8A53 /* MyViewController.m in Sources */,
-				047FE41F20C932E700BD8A53 /* BtnViewController.m in Sources */,
 				047FE3F820C90D5600BD8A53 /* main.m in Sources */,
 				047FE3F020C90D4A00BD8A53 /* AppDelegate.m in Sources */,
 			);
